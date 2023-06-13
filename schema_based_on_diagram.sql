@@ -4,3 +4,12 @@ CREATE TABLE patients (
 	date_of_birth DATE,
 	PRIMARY KEY(id)
 );
+
+CREATE TABLE medical_histories (
+	id INT GENERATED ALWAYS AS IDENTITY,
+	admitted_at DATE,
+	status VARCHAR(100),
+	patient_id INT,
+	PRIMARY KEY(id),
+	CONSTRAINT fk_patients FOREIGN KEY(patient_id) REFERENCES patients(id)
+);
