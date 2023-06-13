@@ -28,25 +28,22 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  <!-- - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment) -->
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [VET CLINIC](#vet-clinic)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Vet Clinic\] ](#-vet-clinic-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -166,6 +163,12 @@ Example:
 - GitHub: [Naji Ali](https://github.com/naji-97)
 - LinkedIn: [Naji Ali](https://linkedin.com/in/abdennaji)
 - Angelist: [Naji Ali](https://wellfound.com/u/naji-ali-1)
+
+👤 **Samuel Kwesi Obuobi Lartey**
+
+- GitHub: [@kwesi obuobi](https://github.com/kwesiObuobi)
+- Twitter: [@kwesi_obuobi](https://twitter.com/kwesi_obuobi)
+- LinkedIn: [kwesi-obuobi](https://www.linkedin.com/in/kwesi-obuobi/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
