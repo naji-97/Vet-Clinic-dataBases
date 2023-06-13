@@ -59,7 +59,4 @@ CREATE TABLE visits (
 -- Performance
 -- To decrease the execution time
 
-CREATE INDEX visits_animal_id_idx ON visits (animal_id);
-CREATE INDEX visits_vet_id_idx ON visits (vet_id);
-CREATE INDEX owners_email_idx ON owners (email);
 
