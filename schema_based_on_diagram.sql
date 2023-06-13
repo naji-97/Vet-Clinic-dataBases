@@ -21,6 +21,15 @@ CREATE TABLE treatments (
 	PRIMARY KEY (id)
 );
 
+CREATE TABLE treatment_medical_history (
+	id INT GENERATED ALWAYS AS IDENTITY,
+	medical_history_id INT,
+	treatment_id INT,
+	CONSTRAINT fk_treatment_history_id FOREIGN KEY(treatment_id) REFERENCES treatments(id),
+	CONSTRAINT fk_medical_history_id FOREIGN KEY(medical_history_id) REFERENCES medical_histories(id),
+	PRIMARY KEY (id)
+);
+
 CREATE TABLE invoices (
 	id INT GENERATED ALWAYS AS IDENTITY,
 	total_amount DECIMAL,
@@ -43,10 +52,8 @@ CREATE TABLE invoice_items (
 	CONSTRAINT fk_treatment FOREIGN KEY (treatment_id) REFERENCES treatments(id),
 );
 
-
-
 CREATE INDEX idx_medical_histories_patient_id ON medical_histories(patient_id);
 CREATE INDEX idx_invoices_medical_history_id ON invoices(medical_history_id);
 CREATE INDEX idx_invoice_items_invoice_id ON invoice_items(invoice_id);
 CREATE INDEX idx_invoice_items_treatment_id ON invoice_items(treatment_id);
-
+CREATE INDEX idx_treatment_history ON treatment_medical_history (medical_history_id, treatment_id);
